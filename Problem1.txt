@@ -13,3 +13,7 @@ b-) How many milliseconds would it take to run 1,000,000 Core i7 instructions on
 
 total time = 1 / (7.46 * 1 000 000)
            = 1 /  7 460 000 = 1.34048x10^-4 seconds = 0.0013 milliseconds
+           
+d-) Yes, hardware implementation is always faster than a software implementation because software
+    has to be executed in the hardware of where it resides. Therefore, to excetute any instruction 
+    the processor has to perform a sequence of steps that hardware does not have to do. 
