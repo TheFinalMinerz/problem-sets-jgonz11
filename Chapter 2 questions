@@ -45,4 +45,11 @@ Eliminating the need for an interpreted could free up the overhead and speed up 
 Because when an instruction was needed it could  usualy be taken from the prefetch buffer
 rather than waiting for a memory read to complate.
 
-12.
+12. An instruction might take 10 nsec to complete (100 MIPS). Explain how a five-stage pipeline 
+could increase the throughput to 500 MIPS. 
+If we split 10 nsec into 5 stages of 2 nsec each, then by the time the pipeline is full it will have a 
+throughput of 1 instruction every clock-cycle, which is every 2 nsec. This is a 500% increase from every 10 nsec.
+Thus, instead of 100 MIPS, it will have 500 MIPS.
+
+13. What type of pipeline did the 486 have?
+One five-stage pipeline
