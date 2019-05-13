@@ -75,3 +75,10 @@ then, from each thread 16 SIMD
 18. Define what a vector register is in a vector processor.
 Registers loaded from memory serially in a single instruction to be used for vector operations.
 
+19. How is a vector register loaded?
+serially in a single instruction
+
+20. What does it mean to say that the CPUs in a multiprocessor are tightly coupled?
+They are more independet than a tightly coupled multiprocessor. Example;  they have their
+own memory and only have to replicate "shared memory" with a network implementation.
+
