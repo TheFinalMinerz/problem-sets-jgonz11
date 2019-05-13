@@ -79,6 +79,14 @@ Registers loaded from memory serially in a single instruction to be used for vec
 serially in a single instruction
 
 20. What does it mean to say that the CPUs in a multiprocessor are tightly coupled?
+They can communicate faster with eachother than with external CPUs over the a network and 
+are partially interdependent
+
+21. Why is there a practical limit to the number of processors that can fit on one chip?
+Connecting each CPU to main memory is problematic.
+
+22. What does it mean to say that the CPUs in a multicomputer are loosely coupled?
 They are more independet than a tightly coupled multiprocessor. Example;  they have their
 own memory and only have to replicate "shared memory" with a network implementation.
 
+23.
