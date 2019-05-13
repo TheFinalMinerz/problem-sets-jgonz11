@@ -62,3 +62,16 @@ Superscalar
 
 16. What is meant by a data parallel computer?
 Computers that execute highly-regular programs quickly and efficiently in parallel
+
+17. Explain how the book arrived at the number of 512 instructions per second for the Fermi GPU. 
+(Warning: the book's explanation might be wrong.)
+The GPU contains up to 16 SIMD (SM)
+each SM containing 32 SIMD processors
+2 threads per cycle
+then, from each thread 16 SIMD
+
+16 * 32 = 512
+
+18. Define what a vector register is in a vector processor.
+Registers loaded from memory serially in a single instruction to be used for vector operations.
+
