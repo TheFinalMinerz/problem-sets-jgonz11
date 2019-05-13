@@ -4,7 +4,7 @@ Arithmetic logical unit (ALU)
 Registers
 
 2. Define the PC register
-Small piece of memory very fast
+High-speed memory to store temporary result
 Next to the CPU
 
 3. Define the IR register
@@ -19,4 +19,8 @@ Data path is formed for registers, the ALU and several buses connecting the piec
 - Ability to fix design deficiencies
 - Breaks instructions of its target machine into small steps. Efficient development.
 
-
+6. How did fast read-only memory help diminish the disadvantage of interpretation over a hardware implementation? 
+Interpreters could be run over the control stores to 
+diminish the interpretation overhead, since control
+stores were faster than conventional RW memory at the
+time.
