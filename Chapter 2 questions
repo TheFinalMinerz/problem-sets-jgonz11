@@ -124,3 +124,23 @@ Instructions and data are stored in the same cache
 30. Why do modern computers tend to use a split cache? 
 Because instructions and data are in separate caches in a split cache, so an instruction and its operands
 can be fetched in parallel.
+
+31. Why do many memory modules not bother having parity or error-correction added? 
+Because the average error is 1 every 10 years
+
+32. What are the approximate speeds for accessing a CPU register, cache, RAM, solid state disk,
+magnetic disk, and optical drive? 
+From higher to lower
+Registers------   Full CPU speed (1 nanosecond or less)
+Cache ------      32KB to few MB (small multiple of registers)
+Main memory ----  1GB to hundreds of GB (10 nanoseconds)
+Solid State ----- 100 nanoseconds (10 times slower)
+
+33. What happens to storage capacity of memory as the speed increases?
+Memory capacity goes down as speed increases.
+
+34. What happens to the cost of memory as the speed increases? 
+It costs more to get fast memory
+
+35. 
+
