@@ -119,5 +119,5 @@ h: hit ratio
 As h approaches 1 the access time approaches c and as h approaches 0 a memory reference is needed. 
 
 29. What is meant by a unified cache? 
-
+Instructions and data are stored in the same cache
 
