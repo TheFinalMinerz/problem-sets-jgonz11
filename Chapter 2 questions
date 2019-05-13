@@ -61,4 +61,4 @@ Two five-stage pipeline
 Superscalar
 
 16. What is meant by a data parallel computer?
-
+Computers that execute highly-regular programs quickly and efficiently in parallel
