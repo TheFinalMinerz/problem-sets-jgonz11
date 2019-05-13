@@ -108,5 +108,16 @@ fig 2-12 page 77
 26. Memory reads are slow. What happens to performance if memory cannot be read prior to when it is needed?
 CPU has to spend cycles waiting for memory read to complete, so CPU performance is stucked by memory reads.
 
+27. How can compilers try to avoid CPU stalling?
+Using cache, where it is stored the most heavily used memory words
+
+28. In the formula for mean access time, what happens as the hit ratio approaches 1? What happens when the ratio approaches 0?
+mean access time = c +(l-h)m
+c: cache access time 
+m: memory access time
+h: hit ratio
+As h approaches 1 the access time approaches c and as h approaches 0 a memory reference is needed. 
+
+29. What is meant by a unified cache? 
 
 
