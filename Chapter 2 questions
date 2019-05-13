@@ -53,3 +53,12 @@ Thus, instead of 100 MIPS, it will have 500 MIPS.
 
 13. What type of pipeline did the 486 have?
 One five-stage pipeline
+
+14. What type of pipeline did the original Pentium have? 
+Two five-stage pipeline
+
+15. What type of pipeline does the Core chip have? 
+Superscalar
+
+16. What is meant by a data parallel computer?
+
