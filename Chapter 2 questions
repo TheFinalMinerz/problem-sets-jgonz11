@@ -2,3 +2,10 @@
 Control Unit
 Arithmetic logical unit (ALU)
 Registers
+
+2. Define the PC register
+Small piece of memory very fast
+Next to the CPU
+
+3. Define the IR register
+Holds the instructions currently being executed
