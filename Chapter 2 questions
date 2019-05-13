@@ -31,3 +31,18 @@ VLSI Very Large Scale Integration
 8. How did the RISC designers justify that their design was faster, even though it took 4 or 5 instructions to
 do the equivalent of 1 CISC instruction. 
 RISC design instruction are 10 times as fast as CISC because they are not interpreted
+
+9. Main memory speeds approached the speeds of read-only memory. How did this fact help justify the RISC design?
+Eliminating the need for an interpreted could free up the overhead and speed up instruction execution.
+
+10. List the five RISC design principles.
+- All instruction are directly executed by hardware
+- Maximize the rate at which instructions are issued
+- Instructions should be easy to decode
+- Only loads and stores should reference memory
+
+11. Why do computers use a prefetch buffer?
+Because when an instruction was needed it could  usualy be taken from the prefetch buffer
+rather than waiting for a memory read to complate.
+
+12.
