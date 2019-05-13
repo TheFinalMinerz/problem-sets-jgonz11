@@ -98,5 +98,15 @@ In Big Endian bytes in a word start from high order and in Litter Endian from lo
 Example J O H N and N H O J  consecutively.
 
 25. Use an example to demonstrate the difficulty with transforming some data in big endian format to little endian format.
+fig 2-12 page 77
+0     M I J
+4  T  I M S
+8  0  0 0 H
+12 21 0 0 0
+16 4  1 0 0
+
+26. Memory reads are slow. What happens to performance if memory cannot be read prior to when it is needed?
+CPU has to spend cycles waiting for memory read to complete, so CPU performance is stucked by memory reads.
+
 
 
