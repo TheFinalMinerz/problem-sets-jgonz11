@@ -121,3 +121,6 @@ As h approaches 1 the access time approaches c and as h approaches 0 a memory re
 29. What is meant by a unified cache? 
 Instructions and data are stored in the same cache
 
+30. Why do modern computers tend to use a split cache? 
+Because instructions and data are in separate caches in a split cache, so an instruction and its operands
+can be fetched in parallel.
