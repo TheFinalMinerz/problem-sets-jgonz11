@@ -89,4 +89,14 @@ Connecting each CPU to main memory is problematic.
 They are more independet than a tightly coupled multiprocessor. Example;  they have their
 own memory and only have to replicate "shared memory" with a network implementation.
 
-23.
+23. How is data shared in a multicomputer system?
+CPUs send other CPUs messages over the network topology that ideally minimizes avg. message 
+transfer latency
+
+24. Explain the difference between Big Endian and Little Endian, in terms of how numbers and strings are stored in memory
+In Big Endian bytes in a word start from high order and in Litter Endian from low order.
+Example J O H N and N H O J  consecutively.
+
+25. Use an example to demonstrate the difficulty with transforming some data in big endian format to little endian format.
+
+
