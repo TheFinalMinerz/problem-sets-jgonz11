@@ -9,3 +9,8 @@ Next to the CPU
 
 3. Define the IR register
 Holds the instructions currently being executed
+
+4. What constitutes a data path?
+Data path is formed for registers, the ALU and several buses connecting the pieces
+
+
