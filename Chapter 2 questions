@@ -13,4 +13,10 @@ Holds the instructions currently being executed
 4. What constitutes a data path?
 Data path is formed for registers, the ALU and several buses connecting the pieces
 
+5. List three advantages of microcode over hardware implementation.
+
+- The opportunity to add new instructions at minimal cost
+- Ability to fix design deficiencies
+- Breaks instructions of its target machine into small steps. Efficient development.
+
 
