@@ -24,3 +24,10 @@ Interpreters could be run over the control stores to
 diminish the interpretation overhead, since control
 stores were faster than conventional RW memory at the
 time.
+
+7. What was the new (old?) development in the RISC design?
+VLSI Very Large Scale Integration
+
+8. How did the RISC designers justify that their design was faster, even though it took 4 or 5 instructions to
+do the equivalent of 1 CISC instruction. 
+RISC design instruction are 10 times as fast as CISC because they are not interpreted
