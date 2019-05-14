@@ -162,4 +162,12 @@ cycles from other devices that could be using the bus.
 PCIe clock cycle runs at 8Gbps vs 66MHz, when you calculate 64 bits per PCI cycle and 1 bit per PCIe cycle,
 PCIe still comes out higher 
 
+40. Explain what a lane is on a PCIe bus. 
+It is a wire pair where travel the data transfer
+
+41. Why is the original PCI bus inadequate for displaying full-motion video? 
+Because the bandwith is smaller
+
+
+
 
