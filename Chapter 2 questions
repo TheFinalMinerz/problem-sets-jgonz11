@@ -143,8 +143,23 @@ Memory capacity goes down as speed increases.
 It costs more to get fast memory
 
 35. Explain how DMA works. 
-
+A controller that read and write to memory directly without CPU intervention is a performing Direct Memory 
+Access. When it finishes to process, it sends an interrupt to CPU to start interrupt handler. It does this by
+breaking up a bitstream into words and sending to memory and write to storage.
 
 36. Explain the need for a bus arbiter.
+the bus arbiter exists because multiple devices share the same bus and it need to be a logic control
+to determinate which devices get preference because they can't be run in parallel
+
+37. If the CPU and an I/O device request the bus at the same time, which one usually gets it?
+I/O get preference to avoid data-loss because CPU most of the time gives priority to slower devices like disk.
+
+38. Explain cycle stealing
+Since only one device can use the bus at the time the act of one device taking preference is the same as taking away
+cycles from other devices that could be using the bus.
+
+39. Explain how high throughput can be achieved on the PCIe bus, even though only 1 bit is sent at a time
+PCIe clock cycle runs at 8Gbps vs 66MHz, when you calculate 64 bits per PCI cycle and 1 bit per PCIe cycle,
+PCIe still comes out higher 
 
 
