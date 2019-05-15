@@ -1,0 +1,20 @@
+ 1.	List the steps for converting a truth table to a circuit
+- Draw and AND gate for each term with a 1 in the result column
+- Wire the AND gates to the appropiate inputs
+- Feed the output of all the AND gates into an OR gate
+
+2. Why are NAND and NOR know as complete gates?
+Because any Boolean function can be computed using either of them. No other gate
+has this property, which is another reason they are often preferred for the building
+block of circuits.
+
+3.	Define combinational circuit
+Circuit with multiple inputs and ooutputs in which the outputs are uniquely determined by the current 
+input values.
+
+4.	What is the formula for the number of data lines for a given number of control lines for a multiplexer?
+2^n data inputs
+
+5.	What is the formula for the number output lines for a given number of control lines for a decoder?
+2^n output lines
+
