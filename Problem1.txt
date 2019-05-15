@@ -55,13 +55,39 @@ i-) First dual-core chip
 
 POWER4 made by IBM in 2001
 
-3. Implement the Interp function from class. The main program has been given already, write all the missing routines. I have modified the code a little from the example from class. The find_data returns the location of the data, not the data. This allows more flexibility.
+3. Implement the Interp function from class. The main program has been given already, write all the missing routines.
+I have modified the code a little from the example from class. The find_data returns the location of the data, not
+the data. This allows more flexibility.
 
-4. Each stage in a five-stage pipleline executes in one cycle. How many cycles will it take to process 100 instructions from the moment that the first instruction enters the pipeline to the moment the last instruction leaves the pipeline?
+LOAD_CONST 000
+LOAD       001
+STORE      010
+ADD        011
+SUB        100
+HALT       101
+
+LOAD__CONST  3
+STORE        7
+LOAD_CONST   2
+ADD          7
+STORE        9
+HALT  
+----------------
+ 000 00011
+ 010 00111
+ 000 00010
+ 011 00111
+ 010 01001
+ 101 00000
+
+
+4. Each stage in a five-stage pipleline executes in one cycle. How many cycles will it take to process 100 instructions
+from the moment that the first instruction enters the pipeline to the moment the last instruction leaves the pipeline?
 
 104 cycles
 
-5. Suppose it takes 100 nsec to access RAM, 60 nsec to access L2 cache, and 10 nsec to access L1 cache. If L1 cache has a hit rate of 60% and L2 has a hit rate of 80%, what is the average access time to retrieve data from memory? 
+5. Suppose it takes 100 nsec to access RAM, 60 nsec to access L2 cache, and 10 nsec to access L1 cache. 
+If L1 cache has a hit rate of 60% and L2 has a hit rate of 80%, what is the average access time to retrieve data from memory? 
 
 For L1: (0.6 * 10) + (0.4 * 100) = 46 nsec
 
