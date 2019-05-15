@@ -91,7 +91,14 @@ Little Endian: TAP_MADA_000S_13000_E60700
    1  1  0   1      0          1         1
    1  1  1   1      1          0         1
    
-   
+  9. Truth tables and Boolean formulas.
+
+   a. Create a truth table for a circuit that is one when the parity of its three inputs is even. 
+A  B  C  out
+1  1  0   1
+0  1  1   1
+1  0  1   1
+
 
 
 
