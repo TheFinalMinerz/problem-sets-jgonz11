@@ -17,3 +17,82 @@ total time = 1 / (7.46 * 1 000 000)
 d-) Yes, hardware implementation is always faster than a software implementation because software
     has to be executed in the hardware of where it resides. Therefore, to excetute any instruction 
     the processor has to perform a sequence of steps that hardware does not have to do. 
+    
+2.    
+a-) First Intel computer with a single, five-stage pipeline
+  
+     Intel 80486 in 1989
+
+b-) First Intel computer with a dual, five-stage pipeline
+
+    Pentium in 1993
+
+c-) First Intel computer with a superscalar pipeline
+
+    Pentium in 1993
+
+d-) First product line developed as a family.
+
+    360 made by IBM in 1964
+
+e-) Computer that marked the start of modern computer history
+    
+    ENIAC made by Eckert/Mauchley in 1946
+
+f-) First vector computer
+
+     CRAY-1 made by Cray in 1974
+
+g-) First commercial RISC machine
+
+    MIPS in 1985
+
+h-) First computer with a bus for I/O
+
+    PDP-8 in 1960's
+
+i-) First dual-core chip
+
+POWER4 made by IBM in 2001
+
+3. Implement the Interp function from class. The main program has been given already, write all the missing routines. I have modified the code a little from the example from class. The find_data returns the location of the data, not the data. This allows more flexibility.
+
+4. Each stage in a five-stage pipleline executes in one cycle. How many cycles will it take to process 100 instructions from the moment that the first instruction enters the pipeline to the moment the last instruction leaves the pipeline?
+
+104 cycles
+
+5. Suppose it takes 100 nsec to access RAM, 60 nsec to access L2 cache, and 10 nsec to access L1 cache. If L1 cache has a hit rate of 60% and L2 has a hit rate of 80%, what is the average access time to retrieve data from memory? 
+
+For L1: (0.6 * 10) + (0.4 * 100) = 46 nsec
+
+For L2: (0.8 * 60) + (0.2 * 100) = 48 + 20 = 68 nsec
+
+46 + 68 = 114 nsec
+
+6. Consider a student record with name, age, and major number. The name is Pat Adams, the age is 19, the major number is 2022. Show how the data would be stored in a memory system that has 4-byte words as follows. Draw the memory as a linear array of bytes, not as a table. Store numbers in hex.
+
+    Store the data using Big Endian
+    Store the data using Little Endian
+Big Endian: PAT _ADAM_S000_00013_0007E6
+Little Endian: TAP_MADA_000S_13000_E60700
+
+7. Here are two Boolean formulas.
+
+      A OR B
+      (A OR B)C OR (A OR B)(NOT C)
+
+   a. Prove whether or not these equations are equivalent by using truth tables. Do not simplify the expressions.
+   A  B  C  AorB  AND C  (AorB)(notC) RESULT
+   0  0  0   0      0          0         0
+   0  0  1   0      0          0         0
+   0  1  0   1      0          1         1
+   1  0  0   1      0          1         1
+   0  1  1   1      1          0         1
+   1  1  0   1      0          1         1
+   1  1  1   1      1          0         1
+   
+   
+
+
+
+
