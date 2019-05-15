@@ -18,3 +18,8 @@ input values.
 5.	What is the formula for the number output lines for a given number of control lines for a decoder?
 2^n output lines
 
+6.	If four memory chips are selected by a decoder, which address lines will be wired to the decoder in orde 
+to select one of the chips?
+The address line where the chip selected start
+
+7.	How can an 8-bit adder be built from single bit adders?
